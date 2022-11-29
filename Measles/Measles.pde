@@ -3,14 +3,14 @@
 void setup() {
   //Display & Orientation
   //Population
-  //Theme: i.e. Face
+  //Theme: i.e. Face (will work in portrait and landscape)
   //Background Image (could be in draw too)
 }//End setup
 //
 void draw() {
   //OS System Button
-  //Start Button
-  //Theme: measles
+  //Start Button | Measles Reset Button
+  //Theme: measles with different sizes and colours
   }//End draw
 //
 void keyPressed() {
