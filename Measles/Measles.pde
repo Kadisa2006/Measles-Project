@@ -14,7 +14,7 @@ void setup() {
   eyes();
   nose();
   mouth();
-  measles();
+  measlesDynamic();
   //Background Image (could be in draw too)
 }//End setup
 //

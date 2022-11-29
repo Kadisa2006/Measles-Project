@@ -1,3 +1,4 @@
-void mouth() {} //End mouth
+void mouth() {
+} //End mouth
 //
 //End Nose Subprogram

@@ -1,3 +1,4 @@
-void nose() {} //End nose
+void nose() {
+} //End nose
 //
 //End Nose Subprogram
