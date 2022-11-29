@@ -3,10 +3,11 @@ int appWidth, appHeight;
 //
 void setup() {
   //Display & Orientation
-  size(600, 400);
+  size(600, 400); 
   displayOrientation();
   appWidth = width;
   appHeight = height;
+  //
   //Population
   //Theme: i.e. Face (will work in portrait and landscape)
   faceSetup();
@@ -16,7 +17,7 @@ void setup() {
 void draw() {
   //OS System Button
   //Start Button | Measles Reset Button
-  //Theme: measles with different sizes and colours
+  //Theme: face & measles with different sizes and colours
   }//End draw
 //
 void keyPressed() {
