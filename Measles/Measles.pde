@@ -12,10 +12,7 @@ void setup() {
   population();
   //Theme: i.e. Face (will work in portrait and landscape)
   faceSetup();
-  eyes();
-  mouth();
-  nose();
-  measlesDynamic();
+
   //Background Image (could be in draw too)
 }//End setup
 //
@@ -23,6 +20,10 @@ void draw() {
   //OS System Button
   //Start Button | Measles Reset Button
   //Theme: face & measles with different sizes and colours
+  measlesDynamic();
+  eyes();
+  mouth();
+  nose();
 }//End draw
 //
 void keyPressed() {

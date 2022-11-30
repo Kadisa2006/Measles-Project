@@ -3,9 +3,11 @@ float measleX, measleY, measleDiameter;
 void measlesDynamic() {
   //
   //Population Code
-  measleX = random(0, appWidth);
+  measleDiameter = 30;
+  int measlesRadius = int(measleDiameter) * 1/2;
+  measleX = random( rectFaceX+measlesRadius, (rectFaceX+rectFaceWidth)-measlesRadius );
   measleY = random(appHeight);
-  measleDiameter = 5;
+  
   //
   ellipse( measleX, measleY, measleDiameter, measleDiameter );
 } //End measlesDynamic
