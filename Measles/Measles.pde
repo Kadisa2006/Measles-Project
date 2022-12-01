@@ -1,6 +1,8 @@
 //Global Variables
 int appWidth, appHeight;
 int reset=1;
+color resetWhite=#FFFFFF;
+Boolean nightMode=false; //Basic Night Mode only changes measles
 //
 void setup() {
   //Display & Orientation
@@ -12,7 +14,6 @@ void setup() {
   population();
   //Theme: i.e. Face (will work in portrait and landscape)
   faceSetup();
-
   //Background Image (could be in draw too)
 }//End setup
 //
