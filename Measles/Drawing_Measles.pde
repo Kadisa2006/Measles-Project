@@ -8,10 +8,11 @@ void measlesDynamic() {
   int measlesRadius = int(measleDiameter) * 1/2;
   measleX = random( rectFaceX+measlesRadius, (rectFaceX+rectFaceWidth)-measlesRadius );
   measleY = random(appHeight); //smallerDimension
-  nightMode = false; //Will change with key board and mousePressed
-  measlesColour = color(random(165, 254), random(42, 44), random(42, 84));
-  //most pink is range of blue 0-130 (i.e. 254, 44, 84)
-  //most red is reange of green 0-55
+  //nightMode = true; //Will change with key board and mousePressed
+  measlesColour = ( nightMode==true) ? color( random(165, 254), random(42, 44), 0 ) : color( random(165,254), random(42, 44), random(84));
+  //measlesColour = : color( random(165,254), random(42, 44), random(84));
+  //most pink is range of blue 0-84 (i.e. 254, 44, 84)
+  //most red is reange of green 42-44
   //
   noStroke();
   fill(measlesColour);

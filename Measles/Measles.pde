@@ -29,6 +29,14 @@ void draw() {
 //
 void keyPressed() {
   //KeyBoard Shortcuts
+  if ( key=='N' | key=='n' ) { 
+    if ( nightMode==false ) {
+      nightMode=true;
+    } else {
+      nightMode=false;
+    }
+  }
+  println(nightMode);
 }//End keyPressed
 //
 void mousePressed() {
