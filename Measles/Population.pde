@@ -1,10 +1,10 @@
 void population() {
   float centerX = appWidth*1/2;
-  float centerY = appHeight*1/2;
+  int centerY = appHeight*1/2;
   //
   int smallerDimension;
   smallerDimension = ( landscape == true) ? appHeight : appWidth;
-  println(smallerDimension);
+  println((smallerDimension));
   //
   rectFaceX = centerX - smallerDimension*1/2;
   rectFaceY = appHeight * 0;
