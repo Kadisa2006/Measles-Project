@@ -2,6 +2,7 @@
 int appWidth, appHeight;
 int reset=1;
 color resetWhite=#FFFFFF;
+PImage pic;
 Boolean nightMode=false; //Basic Night Mode only changes measles
 //
 void setup() {
@@ -25,6 +26,7 @@ void draw() {
   eyes();
   mouth();
   nose();
+  image(pic, 366, 595);
 }//End draw
 //
 void keyPressed() {

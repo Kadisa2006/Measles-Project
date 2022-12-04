@@ -6,6 +6,7 @@ void population() {
   smallerDimension = ( landscape == true) ? appHeight : appWidth;
   println((smallerDimension));
   //
+  pic = loadImage("Nose.png");
   rectFaceX = centerX - smallerDimension*1/2;
   rectFaceY = appHeight * 0;
   rectFaceWidth = smallerDimension;
