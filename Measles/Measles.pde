@@ -1,8 +1,10 @@
 //Global Variables
 int appWidth, appHeight;
 int reset=1;
+Boolean start=false, noNowReallyStart=false;
+float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 color resetWhite=#FFFFFF;
-PImage pic;
+PImage pic, pic2;
 Boolean nightMode=false; //Basic Night Mode only changes measles
 //
 void setup() {
@@ -25,9 +27,12 @@ void draw() {
   measlesDynamic();
   eyes();
   mouth();
+  image(pic2, 344, 453);
   nose();
   image(pic, 366, 595);
-}//End draw
+}
+
+//End draw
 //
 void keyPressed() {
   //KeyBoard Shortcuts

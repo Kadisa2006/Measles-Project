@@ -7,6 +7,7 @@ void population() {
   println((smallerDimension));
   //
   pic = loadImage("Nose.png");
+  pic2 = loadImage("Mouth.png");
   rectFaceX = centerX - smallerDimension*1/2;
   rectFaceY = appHeight * 0;
   rectFaceWidth = smallerDimension;
